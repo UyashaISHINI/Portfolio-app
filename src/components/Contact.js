@@ -21,7 +21,10 @@ export default function Contact() {
     setForm({ name: "", email: "", message: "" });
   };
   return (
-    <div className="min-h-screen w-full bg-gradient-to-b from-white to-gray-50 py-16">
+    <div
+      id="contact"
+      className="min-h-screen w-full bg-gradient-to-b from-white to-gray-50 py-16"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">
